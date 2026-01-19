@@ -1,0 +1,8 @@
+#5 - Escreva um programa que mostre se um número é ou não, múltiplo de 3.
+num=int(input("Digite um número: "))
+# if num % 3==0:
+#     print("Dívisivel por 3")
+# else:
+#     print("Não divisível por 3")
+divisivel= (num%3==0)
+print("Divisivel" if divisivel else "não divisível")
