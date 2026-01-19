@@ -1,9 +1,9 @@
 #7 - Faça um programa que receba a idade de uma pessoa. Essa pessoa receberá desconto, caso seja estudante ou for maior de 60 anos
 idade=int(input("Digíte sua idade: "))
-estudante=input("É estudante? (S/N)").lower()
+estudante=input("É estudante? (S/N): ").lower()
 # if idade >60 or estudante == "s":
 #     print("Recebe desconto")
 # else:
 #     print("Não recebe desconto")
-desconto= idade > 60 or estudante == "s"
-print("Desconto" if desconto else "Não recebe desconto")
+tem_desconto= idade > 60 or estudante == "s"
+print("Recebe desconto" if tem_desconto else "Não recebe desconto")
