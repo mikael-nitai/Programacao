@@ -12,10 +12,10 @@ numeros_maior=[]
 for i in partes_maiores:
     numeros_maior.append(int(i))
 
-if len(numeros_maior) != 2:
-    print("Escolha apenas 2 números separados por espaço")
-else:
-    print(f"O maior número é: {maior(numeros_maior)}")
+# if len(numeros_maior) != 2:
+#     print("Escolha apenas 2 números separados por espaço")
+# else:
+#     print(f"O maior número é: {maior(numeros_maior)}")
 
 numeros_menor= input("Escolha dois numeros separados por espaço para determinar o menor: ")
 partes_menores= numeros_menor.split()
@@ -24,7 +24,14 @@ numeros_menor= []
 
 for n in partes_menores:
     numeros_menor.append(int(n))
-if len(numeros_menor) != 2:
-    print("Escolha apenas 2 números separados por espaço")
+
+# if len(numeros_menor) != 2:
+#     print("Escolha apenas 2 números separados por espaço")
+# else:
+#     print(f"O menor número é {menor(numeros_menor)}")
+
+if len(numeros_maior) != 2 or len(numeros_menor) != 2:
+        print("Inválido! escolha apenas dois números")
 else:
-    print(f"O menor número é {menor(numeros_menor)}")
+    print(f"Da lista {numeros_maior} o maior é {maior(numeros_maior)}")
+    print(f"Da lista {numeros_menor} o menor é {menor(numeros_menor)}")
