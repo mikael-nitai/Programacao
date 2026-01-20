@@ -1,5 +1,7 @@
-numero=int(input("Escolha um número: "))
+#crie uma função que recebe um número e faz um contador regressivo a partir dele
+def contador(n1):
+    for i in range(n1,-1,-1):
+       print(i)
 
-while numero < 100:
-    numero = numero + 1
-    if numero % 2 == 0:
+numero_pedido= int(input("Escolha o número inicial do contador: "))
+contador(numero_pedido)
