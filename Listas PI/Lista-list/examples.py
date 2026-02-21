@@ -10,3 +10,6 @@ print(minha)
 
 minha.insert(5,6)
 print(minha)
+
+numeros = list(range(5))
+print(numeros)
