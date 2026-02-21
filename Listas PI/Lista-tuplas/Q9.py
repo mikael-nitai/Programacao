@@ -3,6 +3,7 @@
 # Por fim, converta novamente para uma tupla.
 
 nomes = ("Ane", "Bia", "Cida")
+
 lista= list(nomes)
 lista.append("Diana")
 nomes= tuple(lista)
