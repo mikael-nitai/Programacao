@@ -6,3 +6,5 @@ dicionario = {"país" : "brasil" ,
 }
 if "cidade" in dicionario:
     print("A chave existe")
+else:
+    print("A chave não existe")
