@@ -1,4 +1,4 @@
 nome= input("informe seu nome: ")
-sobrenome=(input("informe seu sobrenome: ")) #sei que é estranho separar nome e sobrenome, mas a questão pediu nome e sobrenome, dados como entrada.
+sobrenome=(input("informe seu sobrenome: "))
 
 print(f"bem vindo(a) {nome} {sobrenome}")
