@@ -6,4 +6,4 @@ soma= 0
 for i in dicionario.values():
     soma += i
 
-print(f"A soma dos valores do dicionário é {soma}")
+print(f"A soma dos valores do dicionário é {soma}.")
