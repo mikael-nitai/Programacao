@@ -1,4 +1,13 @@
-# Este repositório reúne os códigos desenvolvidos por mim ao longo da disciplina de Programação Imperativa, cursada na Universidade Federal de Sergipe (UFS). 
- O objetivo deste repositório é registrar, organizar e versionar as soluções das listas de exercícios, atividades propostas em aula e eventuais trabalhos da disciplina, servindo tanto como acompanhamento do aprendizado quanto como material de revisão futura. 
- Os códigos estão escritos em Python e organizados por listas, de forma que cada conjunto de exercícios possui sua própria pasta, e cada questão é implementada em um arquivo separado sempre que apropriado. 
- Este repositório reflete meu progresso ao longo da disciplina e pode conter soluções parciais, alternativas ou em evolução, conforme o avanço do conteúdo.
+# Repositório Geral de Estudos
+
+Este repositório reúne estudos e práticas em diferentes temas e linguagens.
+
+## Estrutura principal
+
+- `python/`: conteúdos de estudo em Python.
+- `python/cursos/ufs_programacao_imperativa/`: conteúdo migrado da disciplina de Programação Imperativa (UFS).
+
+## Conteúdo atual em destaque
+
+- Curso: `python/cursos/ufs_programacao_imperativa/`
+- README original do curso: `python/cursos/ufs_programacao_imperativa/README_PI.md`
