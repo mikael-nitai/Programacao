@@ -10,5 +10,13 @@ print(matriz_np)
 
 for linha in matriz:
     for elemento in linha:
-        print(elemento, end="")
-    print()
+        print(elemento)
+print("-" *15)
+
+print(matriz[1][1])
+print(matriz_np[1,1])
+
+print(matriz_np.T)
+
+print("-" *15)
+
